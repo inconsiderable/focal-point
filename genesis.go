@@ -1,0 +1,24 @@
+package focalpoint
+
+const GenesisViewJson = `
+{
+    "header": {
+        "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+        "hash_list_root": "a87768d23ed9e9ce2ae4da79e24492f71d89e352e021c30fdecd3d6255015c09",
+        "time": 1749239371,
+        "target": "00000000ffff0000000000000000000000000000000000000000000000000000",
+        "point_work": "0000000000000000000000000000000000000000000000000000000100010001",
+        "nonce": 5737293981071498,
+        "height": 0,
+        "consideration_count": 1
+    },
+    "considerations": [
+        {
+            "time": 1749238441,
+            "nonce": 780042680,
+            "for": "0000000000000000000000000000000000000000000=",
+            "memo": "Whatever is true, noble, right, pure, lovely, admirable- if anything is excellent or praiseworthy- focus on these things.",
+            "series": 1
+        }
+    ]
+}`
